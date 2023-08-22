@@ -1,0 +1,119 @@
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0.25em 0;
+}
+
+mat-toolbar {
+  background-color: #614901;
+  color: #fff;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+}
+
+mat-card-title {
+  font-weight: Italic;
+}
+
+.spacer {
+  flex: 1 1;
+}
+
+.content {
+  padding: 1em;
+  margin: auto;
+  margin-top: 6em;
+  max-width: 1100px;
+  overflow: auto;
+  max-height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.card {
+  background-color:white;
+  /* background-color: #fec; */
+  margin: 1rem .5rem;
+  border-radius: 2px;
+  border-width: 1px;
+  /* border-color: #000; */
+  padding: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  text-align: center;
+  width: 100%;
+  min-width: 280px;
+  max-width: 300px;
+  box-sizing: border-box;
+  box-shadow: #000;
+}
+
+.card:hover{
+  border-color:rgb(96, 96, 170);
+  border-width: 3px;
+}
+
+.card-title{
+  margin-bottom: 15px;
+}
+
+.card-img{
+  height: 240px;
+  
+}
+
+.card .inner {
+    /* margin: auto; */
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.6em;
+  }
+
+.item-button {
+  padding: 0;
+  margin-left: 75px;
+  width: 70px;
+}
+
+.item-button {
+  background-color:orange;
+  color: #fff;
+}
+
+.item-button:hover {
+  color: #ccc;
+}
+
+.item-button:active {
+  background-color: green;
+  color: #fafafa;
+}
+
+#s{
+  height: 360px;
+}
+
+#s1{
+    height: 360px;
+}
+
+#s2{
+    height: 360px;
+}
+
+.carousel-control-prev{
+  opacity: 0.1;
+}
+.carousel-control-next{
+  opacity: 0.1;
+}
+
+
+
